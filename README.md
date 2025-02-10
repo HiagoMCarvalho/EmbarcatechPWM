@@ -44,15 +44,9 @@ Para compilar e rodar este projeto, você precisará de:
    ```
 6. Envie o arquivo `.uf2` gerado para o Raspberry Pi Pico.
 
-## Configuração do Hardware
-### Conexões:
-- Servo Motor:
-  - Sinal (PWM) conectado ao GPIO 22
-  - VCC ao 5V
-  - GND ao GND
-- LED:
-  - Sinal (PWM) conectado ao GPIO 12
-  - Resistor de 220Ω em série
+## Simulação no Wokwi
+1. Acesse [Wokwi](https://wokwi.com/) e importe os arquivos `diagram.json` e `wokwi.toml`.
+2. Inicie a simulação para visualizar o funcionamento do projeto sem precisar de hardware físico.
 
 ## Funcionamento do Código
 - O servo inicia em 180º, depois se move para 90º e em seguida para 0º, aguardando 5 segundos em cada posição.
